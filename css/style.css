@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+:root {
+    --primary-color: #5865F2;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Box 1 */
+
+.container {
+    background: var(--primary-color);
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7rem;
+    padding: 1rem 0 0 0;
+}
+
+.logo img {
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+}
+
+
+.nav-btns ul {
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-btns li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.nav-btns a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-btns a:hover {
+    text-decoration: underline;
+}
+
+.login button {
+    cursor: pointer;
+    color: #000;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 5rem 0 0 0;
+}
+
+.main .bold-text {
+    font-weight: 800;
+    font-size: 4rem;
+    white-space: nowrap;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.main .para {
+    margin-top: 0;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.dwnld-and-open-in-browser-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.dwnld-and-open-in-browser-btns button {
+    cursor: pointer;
+    /* width: 100%; */
+    padding: 15px 45px;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.dwnld {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.open-in-browser {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+/* Box 2 */
+
+
+/* Box 3 */
+
+
+/* Box 4 */
+
+
+/* Box 5 */
+
+

@@ -89,6 +89,7 @@ body {
     margin-top: 0;
     color: #fff;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .dwnld-and-open-in-browser-btns {
@@ -122,7 +123,35 @@ body {
 }
 
 /* Box 2 */
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
 
+.placeholder-img-box {
+    width: 450px;
+    height: 400px;
+    background: #000;
+    margin: 2rem;
+}
+
+.box-2-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 5rem;
+}
+
+.box-2-text .bold-text {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.box-2-text .para {
+    margin-top: 0;
+    width: 325px;
+}
 
 /* Box 3 */
 
